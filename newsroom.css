@@ -17,11 +17,41 @@ html, body {
     display: inline;
 }
 
-.header img{
-    height: 90px;
-    width: 200px;
 }
 
 .menu {
 background-color: beige;
+}
+
+
+.jumbotron {
+background-color: beige;
+float: left;
+
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+ 
+float: none; margin: 0 0 20px; width: 100%; 
+
+.footer ul{
+    display: inline;
+    text-decoration: none;
+    float: none;
+    margin: 0 0 20px;
+    width: 100%; 
+}
+
+.footer p {
+    float: none;
+    margin: 0 0 20px;
+    width: 100%; 
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
 }
