@@ -30,6 +30,12 @@ float: left;
 
 }
 
+.Info h4 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* Footer */
 .footer {
   background-color: #333;
