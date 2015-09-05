@@ -19,15 +19,45 @@ html, body {
 
 }
 
-.menu {
-background-color: beige;
+.nav a {
+  color: #5a5a5a;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  
+}
+
+.nav li {
+  display: inline;
+  background-color: beige;
 }
 
 
 .jumbotron {
 background-color: beige;
-float: left;
+height: 500px;
 
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  }
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
 }
 
 .Info h4 {
